@@ -1,0 +1,20 @@
+Enter file contents here 
+# remove first line from file 
+tail -n +2 file > AddObject.txt_1
+ 
+# return the first n lines of a file
+awk -F '\t' 'NR <= 10 { print $23 }'  file
+ 
+# get range of numbers
+head -n 1 file | tr '\t' '\n'
+
+# get line numbers
+sed -n 620700,620730p file
+awk 'NR>=620700&&NR<=620730' file
+
+# get line 
+awk 'NR==620701' hrdetails.txt
+awk 'NR==620701 {print; exit}' file
+
+# count occurence of character line by line 
+ awk -F'|' '{ print NF-1 }' file
