@@ -1,4 +1,5 @@
 
 pip install matplotlib ggplot vispy bokeh seaborn pygal colorlover folium networkx cufflinks mpld3
 
+conda install -c conda-forge nbpresent
 conda install nbsetuptools -c anaconda-nb-extensions
