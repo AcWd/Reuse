@@ -1,1 +1,2 @@
-pip install matplotlip  vispy bokeh seaborn pygal folium networkx cufflinks
+
+pip install matplotlib ggplot vispy bokeh seaborn pygal colorlover folium networkx cufflinks mpld3
