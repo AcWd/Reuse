@@ -1,0 +1,1 @@
+pip install matplotlip  vispy bokeh seaborn pygal folium networkx cufflinks
