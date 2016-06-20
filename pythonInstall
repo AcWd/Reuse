@@ -1,8 +1,10 @@
 
 pip install matplotlib ggplot vispy bokeh seaborn pygal colorlover folium networkx cufflinks mpld3
+conda install -c conda-forge ggplot
+pip install https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip --user
 
-conda install -c conda-forge nbpresent
-conda install nbsetuptools -c anaconda-nb-extensions
+#conda install -c conda-forge nbpresent
+#conda install nbsetuptools -c anaconda-nb-extensions
 
 from IPython.display import HTML
 
@@ -20,6 +22,6 @@ $( document ).ready(code_toggle);
 </script>
 <form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>''')
 
-pip install https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip --user
+
 
 /nbextensions/
