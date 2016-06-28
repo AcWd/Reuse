@@ -1,6 +1,9 @@
 
 pip install matplotlib ggplot vispy bokeh seaborn pygal colorlover folium networkx cufflinks mpld3
 conda install -c conda-forge ggplot
+
+conda install anaconda-nb-extensions -c anaconda-nb-extensions -c anaconda-nb-extensions/label/dev
+
 pip install https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip --user
 
 #conda install -c conda-forge nbpresent
