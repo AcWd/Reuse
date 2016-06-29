@@ -6,6 +6,8 @@ conda install anaconda-nb-extensions -c anaconda-nb-extensions -c anaconda-nb-ex
 
 pip install https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip --user
 
+jupyter nbconvert slidexample.ipynb --to slides --post serve --reveal-prefix reveal.js
+
 #conda install -c conda-forge nbpresent
 #conda install nbsetuptools -c anaconda-nb-extensions
 
